@@ -1,0 +1,37 @@
+.caps {
+  text-transform: uppercase; }
+
+.triangle {
+  width: 8px; }
+
+.hero {
+  height: 720px;
+  background-image: url("../images/camp-fire.jpg");
+  background-size: cover;
+  padding-top: 25px; }
+  .hero .top-nav {
+    color: white;
+    margin: 0 5%;
+    font-size: 12px;
+    font-weight: 300; }
+    .hero .top-nav span {
+      cursor: pointer; }
+    .hero .top-nav .right span {
+      margin-left: 50px; }
+  .hero .header {
+    margin-top: 275px;
+    margin-left: 100px;
+    color: white; }
+    .hero .header h1 {
+      font-size: 35px;
+      margin-bottom: 15px; }
+      .hero .header h1 span {
+        color: #7ED321; }
+    .hero .header .start {
+      font-size: 12px;
+      cursor: pointer;
+      font-weight: 300; }
+      .hero .header .start img {
+        margin-right: 5px; }
+
+/*# sourceMappingURL=styles.css.map */
