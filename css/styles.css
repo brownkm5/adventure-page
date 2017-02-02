@@ -2,7 +2,7 @@
   text-transform: uppercase; }
 
 .triangle {
-  width: 8px; }
+  width: 9px; }
 
 .hero {
   height: 720px;
@@ -18,6 +18,9 @@
       cursor: pointer; }
     .hero .top-nav .right span {
       margin-left: 50px; }
+      .hero .top-nav .right span a {
+        color: white;
+        cursor: pointer; }
   .hero .header {
     margin-top: 275px;
     margin-left: 100px;
@@ -33,5 +36,70 @@
       font-weight: 300; }
       .hero .header .start img {
         margin-right: 5px; }
+
+.explore {
+  height: 1000px;
+  padding-top: 75px; }
+  .explore .top {
+    margin-bottom: 75px; }
+  .explore .info .heading {
+    text-align: center;
+    width: 425px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ECE7E7;
+    border-top: 1px solid #ECE7E7;
+    padding: 10px 0;
+    font-size: 24px;
+    color: #515D63; }
+  .explore .top-card {
+    box-shadow: 4px 4px 6px 3px #ccc;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px; }
+    .explore .top-card .card-image {
+      width: 400px; }
+      .explore .top-card .card-image img {
+        width: 400px;
+        height: 250px; }
+    .explore .top-card .card-content {
+      color: #697378; }
+      .explore .top-card .card-content .header img {
+        width: 40px;
+        border-radius: 50%;
+        vertical-align: middle; }
+      .explore .top-card .card-content .article .title {
+        font-size: 18px;
+        word-spacing: 2px;
+        line-height: 25px;
+        margin-bottom: 3px; }
+        .explore .top-card .card-content .article .title .big {
+          font-size: 20px; }
+      .explore .top-card .card-content .article .content {
+        font-size: 11px; }
+      .explore .top-card .card-content .icons {
+        margin-top: 15px; }
+        .explore .top-card .card-content .icons i {
+          font-size: 18px; }
+        .explore .top-card .card-content .icons .left span {
+          margin-left: 10px; }
+        .explore .top-card .card-content .icons .right i {
+          margin-left: 25px;
+          cursor: pointer; }
+        .explore .top-card .card-content .icons .right .fa-heart-o {
+          color: #EDA3AD; }
+  .explore .bottom .icon {
+    margin: 0 auto;
+    width: 30px;
+    text-align: center;
+    color: #A6ADB0; }
+    .explore .bottom .icon i {
+      font-size: 30px; }
+  .explore .bottom .heading {
+    border-top: 0px; }
+  .explore .bottom .article .title {
+    width: 220px;
+    font-size: 20px !important; }
+  .explore .bottom .icons {
+    margin-top: 22px !important; }
 
 /*# sourceMappingURL=styles.css.map */

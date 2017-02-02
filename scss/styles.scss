@@ -2,7 +2,7 @@
   text-transform: uppercase;
 }
 .triangle {
-  width: 8px;
+  width: 9px;
 }
 //header
 .hero {
@@ -23,6 +23,11 @@
     }
     .right span {
       margin-left: 50px;
+      a {
+        color: white;
+        cursor: pointer;
+
+      }
     }
   }
 
@@ -49,5 +54,129 @@
       }
     }
 
+  }
+}
+
+//explore
+.explore {
+  height: 1000px;
+  padding-top: 75px;
+
+  .top {
+    margin-bottom: 75px;
+  }
+
+  .info {
+
+    .heading {
+      text-align: center;
+      width: 425px;
+      margin: 0 auto;
+      border-bottom: 1px solid #ECE7E7;
+      border-top: 1px solid #ECE7E7;
+      padding: 10px 0;
+      font-size: 24px;
+      color: #515D63;
+    }
+  }
+
+  .top-card {
+    // -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    // -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         4px 4px 6px 3px #ccc;
+
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    .card-image {
+      width: 400px;
+
+      img {
+        width: 400px;
+        height: 250px;
+      }
+    }
+
+    .card-content {
+      color: #697378;
+
+      .header {
+        img {
+          width: 40px;
+          border-radius: 50%;
+          vertical-align: middle;
+        }
+      }
+
+      .article {
+        .title {
+          font-size: 18px;
+          word-spacing: 2px;
+          line-height: 25px;
+          margin-bottom: 3px;
+
+          .big {
+            font-size: 20px;
+          }
+        }
+        .content {
+          font-size: 11px;
+        }
+      }
+
+      .icons {
+        margin-top: 15px;
+
+        i {
+          font-size: 18px;
+        }
+
+        .left {
+          span {
+            margin-left: 10px;
+          }
+        }
+        .right {
+          i {
+            margin-left: 25px;
+            cursor: pointer;
+          }
+
+          .fa-heart-o {
+            color: #EDA3AD;
+          }
+        }
+
+      }
+    }
+  }
+
+  .bottom {
+    .icon {
+      margin: 0 auto;
+      width: 30px;
+      text-align: center;
+      color: #A6ADB0;
+
+      i {
+        font-size: 30px;
+      }
+    }
+
+    .heading {
+      border-top: 0px;
+    }
+
+    .article {
+      .title  {
+        width: 220px;
+        font-size: 20px !important;
+      }
+    }
+
+    .icons {
+      margin-top: 22px !important;
+    }
   }
 }
